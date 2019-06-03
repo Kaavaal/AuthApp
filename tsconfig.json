@@ -17,6 +17,23 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "~/*": [
+        "/*"
+      ],
+      "@shared/*": [
+        "src/app/shared/*"
+      ],
+      "@core/*": [
+        "src/app/core/*"
+      ],
+      "@app/*": [
+        "src/app/*"
+      ],
+      "@styles/*": [
+        "src/styles/*"
+      ]
+    }
   }
 }

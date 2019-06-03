@@ -1,0 +1,109 @@
+.form-box {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  margin: 10% auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  background-color: white;
+
+  h2 {
+    text-align: center;
+  }
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
+
+  input {
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px darkgrey;
+    padding-left: 10px;
+    outline: none;
+
+  }
+}
+
+.btn-box {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  button {
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    background: black;
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.reg-form {
+  width: 300px;
+  height: 180px;
+  border-radius: 10px;
+  margin: 10% auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  background-color: white;
+
+  button {
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 0 auto;
+    outline: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 200px;
+  height: 130px;
+  border-radius: 10px;
+  margin: 10% auto;
+  padding: 20px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  background-color: white;
+
+  span {
+    text-align: center;
+  }
+
+  button {
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    background: black;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+}
